@@ -9,7 +9,7 @@ import {Avatar, Button, Grid, Input, Paper, TextField, MenuItem, Select} from "@
   import { useValidateUser, BASE_URL } from "../../../../../helper";
   import { useSelector } from "react-redux";
   import { useNavigate } from 'react-router-dom';
-  
+  // rakesh.singh@rkenterprises.com
   function SignupPage() {
     const navigate = useNavigate();
     useValidateUser();
@@ -96,7 +96,7 @@ import {Avatar, Button, Grid, Input, Paper, TextField, MenuItem, Select} from "@
     console.log(loginData[0])
     loginData[0] != undefined ? console.log(loginData[0][0]) : console.log(loginData[0])
     return <>
-    { loginData[0] != undefined && loginData[0][2] == "rakesh.singh@rkenterprises.com" ?
+    { loginData[0] != undefined && loginData[0][2] == "admin@gmail.com" ?
     (
       <Grid className="newHelp">
         <Paper

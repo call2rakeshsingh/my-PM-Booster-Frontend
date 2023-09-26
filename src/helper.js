@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 
 
 
-export const BASE_URL = "http://localhost:7000"; // replace with your API base URL
-// export const BASE_URL = "https://performanceboosterappbackend.onrender.com"; // replace with your API base URL
+// export const BASE_URL = "http://localhost:7000"; // replace with your API base URL
+export const BASE_URL = "https://myperformaceboosterbackend.onrender.com"; // replace with your API base URL
 
 
 // Custom Hook - useValidateUser.js
